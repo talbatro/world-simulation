@@ -9,7 +9,7 @@ class Tile:
         self.x = x
         self.y = y
         self.fertility = fertility
-        self.fertility_rate = random.uniform(0.001, 0.005)
+        self.fertility_rate = random.uniform(0.002, 0.005)
         self.ice_probability = random.uniform(0.7, 1)
 
     def draw(self, screen, season):
